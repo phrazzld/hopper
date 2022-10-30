@@ -7,7 +7,16 @@
   "author": "Phaedrus Raznikov",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Hopper"
+    "default_title": "Hopper",
+    "default_icon": {
+      "19": "images/icon_19.png",
+      "38": "images/icon_38.png"
+    }
   },
-  "permissions": ["storage", "activeTab"]
+  "permissions": ["storage", "activeTab"],
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  }
 }
