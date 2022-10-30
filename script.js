@@ -4,6 +4,10 @@ const urls = [];
 // Initialize URLs from storage
 chrome.storage.sync.get("urls", (data) => {
   Object.assign(urls, data.urls);
+  // Hide "Hop" button if no URLs are saved
+  if (urls.length === 0) {
+    document.getElementById("hop").style.display = "none";
+  }
 });
 
 // If current URL is in the list, set button text to "Remove"
