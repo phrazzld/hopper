@@ -13,6 +13,7 @@
       "38": "images/icon_38.png"
     }
   },
+  "options_page": "options.html",
   "permissions": ["storage", "activeTab"],
   "icons": {
     "16": "images/icon_16.png",
