@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hopper",
+  "short_name": "hopper",
+  "description": "Shuffled watch later, for bookmarks.",
+  "version": "0.1",
+  "author": "Phaedrus Raznikov",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Hopper"
+  },
+  "permissions": ["storage", "activeTab"]
+}
